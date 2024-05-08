@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-size: 1.32rem;
+  margin: 2rem 2rem 2rem;
+}
+.horizontal-row {
+  border-color: white;
+}
+.heading1 {
+  margin: 2rem 2rem 2rem;
+}
+.para {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.word {
+  min-width: 200px;
+  margin-left: 2rem;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #969ba1;
+  margin-bottom: 1.5rem;
+}
+#input-box {
+  min-width: 480px;
+  height: 30px;
+  margin-bottom: 1.5rem;
+}
+.from1 {
+  margin: 1px 8px;
+}
+#input-box2 {
+  min-width: 223px;
+  height: 30px;
+  margin-bottom: 1.5rem;
+}
+#input-box3 {
+  min-width: 223px;
+  height: 30px;
+  margin-bottom: 1.5rem;
+}
+.to {
+  text-align: center;
+  display: table-cell;
+  width: 40px;
+  padding-right: 6px;
+  padding-left: 6px;
+  text-align: center;
+  font-size: 13px;
+  color: #bdc1c6;
+}
+.para2 {
+  font-size: 1.4rem;
+  text-align: center;
+  padding-bottom: -1.3rem;
+}
+.heading2 {
+  max-width: 920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading4 {
+  font-size: 15px;
+  /* color: #e8eaed; */
+  color: black;
+}
+.extra-text {
+  display: flex;
+  padding-top: 1rem;
+}
+.extra-para {
+  margin-left: 1rem;
+  font-size: 11px;
+  margin-top: 0.6rem;
+}
+.text {
+  font-size: 11px;
+  color: #969ba1;
+}
+@media screen and (max-width: 1064px) {
+  .spe {
+    visibility: hidden;
+  }
+  .heading4 {
+    visibility: hidden;
+  }
+  #input-box {
+    margin-bottom: 0rem;
+    position: absolute;
+  }
+  .para {
+    margin-bottom: 0rem;
+  }
+  .from1 {
+    margin: 0rem;
+  }
+  .word {
+    margin-bottom: 0rem;
+    margin-top: 1.5rem;
+  }
+}
+@media screen and (max-width:801px){
+    #input-box{
+        min-width: 234px;
+    }
+    #input-box2{
+        min-width: 90px;
+    }
+    #input-box3{
+        min-width: 90px;
+    }
+}
+@media screen and (max-width:718px){
+    #input-box{
+        min-width: 180px;
+    }
+    #input-box2{
+        min-width: 30px;
+    }
+    #input-box3{
+        min-width: 30px;
+    }
+    .para2{
+        font-size: 0.888rem;
+    }
+}
+.hr2{
+    margin-top: 2rem;
+    line-height: 1.2rem;
+}
+.search2{
+    margin-left: 2rem;
+}
+.extra-text-search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submit-btn{
+  margin-left: 36rem;
+}
